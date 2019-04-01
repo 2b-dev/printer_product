@@ -8,6 +8,10 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.section-title-product.section-1-psd2 {
+  background-size: 100% 100%;
+  padding-bottom: 8rem;
+}
 .section-3 {
   padding-top: 15rem;
   padding-bottom: 0rem;
@@ -27,6 +31,9 @@ body {
   width: 100%;
   text-align: center;
   margin-top: -3rem;
+}
+.div-contain-img-product-title.title-psd2 {
+  margin-top: -9rem;
 }
 .div-contain-img-product-front {
   width: 100%;
@@ -66,11 +73,38 @@ body {
   background-size: 100% auto;
   background-position: bottom center;
 }
+.section-last {
+  background-image: url("./images/psd2/bg-last.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+}
+.section-2-psd2 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-right: 8rem;
+  text-align: right;
+  background-image: url("./images/psd2/bg-section-2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.right-content {
+  width: 50%;
+  max-width: 600px;
+}
 .bg-table {
   background-image: url("./images/psd1/bg-section-table.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.bg-psd-2-text2 {
+  background-image: url("./images/psd2/bg-text-2.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center bottom;
+  padding-bottom: 90rem;
 }
 @media (max-width: 575px) {
 }
@@ -107,6 +141,19 @@ body {
   }
   .img-table {
     width: 100%;
+  }
+  .section-2-psd2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    text-align: right;
+    background-image: url("./images/psd2/bg-section-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+  .bg-psd-2-text2 {
+    padding-bottom: 14rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -146,13 +193,35 @@ body {
   .img-table {
     width: 100%;
   }
+  .section-2-psd2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    text-align: right;
+    background-image: url("./images/psd2/bg-section-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+  .bg-psd-2-text2 {
+    padding-bottom: 33rem;
+  }
 }
 @media (min-width: 992px) {
 }
 @media (max-width: 1199px) {
+  .bg-psd-2-text2 {
+    padding-bottom: 45rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 
 @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .bg-psd-2-text2 {
+    padding-bottom: 65rem;
+  }
 }
